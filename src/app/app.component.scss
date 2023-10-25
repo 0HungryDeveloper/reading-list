@@ -1,0 +1,17 @@
+.app {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    footer {
+      margin-top: auto;
+    }
+  }
+
+  &__content {
+    width: min(100% - 2rem, 1200px);
+    margin-inline: auto;
+    border: 1px solid red;
+  }
+}
