@@ -5,9 +5,10 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './pages/home/home.component';
 import { BookCardComponent } from './components/book-card/book-card.component';
 import { HeroComponent } from './components/hero/hero.component';
+import { StoryComponent } from './components/story/story.component';
 
 @NgModule({
-  declarations: [HomeComponent, BookCardComponent, HeroComponent],
+  declarations: [HomeComponent, BookCardComponent, HeroComponent, StoryComponent],
   imports: [CommonModule, HomeRoutingModule]
 })
 export class HomeModule {}

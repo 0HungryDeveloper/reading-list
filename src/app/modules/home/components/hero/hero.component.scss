@@ -1,13 +1,5 @@
 @import "src/styles";
 
-@mixin button-styles($border, $text, $background) {
-  border: 2px solid $border;
-  border-radius: 50px;
-  padding: 0.6rem 1rem;
-  background-color: $background;
-  color: $text;
-}
-
 .hero {
   &__actions {
     display: flex;

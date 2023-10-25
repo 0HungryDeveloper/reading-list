@@ -43,6 +43,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  font-weight: 100;
 }
 
 h3 {
@@ -95,6 +96,14 @@ $breakpoints: (
   p {
     font-size: 1rem;
   }
+}
+
+@mixin button-styles($border, $text, $background) {
+  border: 2px solid $border;
+  border-radius: 50px;
+  padding: 0.6rem 1rem;
+  background-color: $background;
+  color: $text;
 }
 
 .align-text-center {
