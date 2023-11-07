@@ -36,3 +36,21 @@
     @include button-styles($white, $black, $white);
   }
 }
+
+@include responsive-screen(medium) {
+  .experience {
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+
+    &__image {
+      height: 400px;
+    }
+
+    &__information {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
