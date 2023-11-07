@@ -3,10 +3,22 @@
 </main>
 <section>
   <h2 class="align-text-center">Categories</h2>
-  <app-large-card-product></app-large-card-product>
-  <app-small-card-product></app-small-card-product>
-  <app-large-card-product></app-large-card-product>
-  <app-small-card-product></app-small-card-product>
+  <article class="categories__container">
+    <section class="categories__long__item">
+      <app-large-card-product></app-large-card-product>
+    </section>
+    <section class="categories__short__item">
+      <app-small-card-product></app-small-card-product>
+    </section>
+  </article>
+  <article class="categories__container">
+    <section class="categories__short__item">
+      <app-large-card-product></app-large-card-product>
+    </section>
+    <section class="categories__long__item">
+      <app-small-card-product></app-small-card-product>
+    </section>
+  </article>
 </section>
 <app-new-experience></app-new-experience>
 <app-story></app-story>
